@@ -1,0 +1,17 @@
+{
+  "name": "bun-grammy-bot",
+  "version": "1.0.0",
+  "description": "Telegram bot using Bun and grammY",
+  "main": "bot.ts",
+  "scripts": {
+    "dev": "bun --watch bot.ts",
+    "start": "bun bot.ts"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "grammy": "^1.21.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24"
+  }
+}
