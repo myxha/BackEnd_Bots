@@ -1,0 +1,20 @@
+{
+  "name": "pr_4_sqlite",
+  "module": "bot.ts",
+  "type": "module",
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "grammy": "^1.21.1",
+    "@grammyjs/conversations": "^1.2.0",
+    "dotenv": "^16.4.5"
+  },
+  "scripts": {
+    "dev": "bun run --hot bot.ts",
+    "start": "bun run bot.ts"
+  }
+}
